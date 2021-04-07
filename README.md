@@ -6,7 +6,7 @@ Adding the *Middleware* to your API will ensure that access is granted only usin
 ## Install
 
 ```bash
-composer require csrui/laravel-firebase-auth
+composer require brianfp/laravel-firebase-auth
 ```
 
 Publish the package's config.
@@ -55,8 +55,6 @@ Now on you auth.php configure you Guard driver to 'firebase'.
     ],
 ],
 ```
-
-TODO: Improve examples
 
 ## Support
 
